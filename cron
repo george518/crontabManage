@@ -1,0 +1,12 @@
+##<channel start>##
+
+#主任务：每一分钟检查cron是否存在
+*/1 * * * *  {当前路径}/cron.sh
+
+#其他定时任务开始
+*/1 * * * *  {当前路径}/command/t.sh
+*/3 * * * *  {当前路径}/command/t2.sh
+*/4 * * * *  {当前路径}/command/t3.sh
+#其他定时任务结束
+
+##<channel end>##
